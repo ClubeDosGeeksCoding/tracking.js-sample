@@ -1,2 +1,10 @@
 # tracking.js-sample
-Exemplo de como usar tracking.js
+tracking.js example
+
+## Use
+```
+git clone https://github.com/ClubeDosGeeksCoding/tracking.js-sample
+cd tracking.js-sample
+npm install
+```
+Open index.html in your browser
