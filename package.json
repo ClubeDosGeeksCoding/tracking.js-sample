@@ -1,0 +1,27 @@
+{
+  "name": "tracking.js-sample",
+  "version": "0.0.1",
+  "description": "Tracking.js example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubeDosGeeksCoding/tracking.js-sample.git"
+  },
+  "keywords": [
+    "tracking.js",
+    "image",
+    "detection"
+  ],
+  "dependencies":{
+    "tracking":"latest"
+  },
+  "author": "Jayr Alencar (jayralencarpereira@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClubeDosGeeksCoding/tracking.js-sample/issues"
+  },
+  "homepage": "https://github.com/ClubeDosGeeksCoding/tracking.js-sample#readme"
+}
