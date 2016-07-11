@@ -4,14 +4,10 @@
 	<title>Usando tracking.js</title>
 	<script src="node_modules/tracking/build/tracking-min.js"></script>
 	<script src="node_modules/tracking/build/data/face-min.js"></script>
-	<script src="node_modules/tracking/build/data/eye-min.js"></script>
-	<script src="node_modules/tracking/build/data/mouth-min.js"></script>
 </head>
 <body>
-	<div class="demo-frame">
-		<div class="demo-container">
-			<img id="img" src="assets/img1.jpg" />
-		</div>
+	<div class="demo-container">
+		<img id="img" src="assets/img1.jpg" />
 	</div>
 </body>
 <style type="text/css">
@@ -25,7 +21,7 @@
 <script>
 	window.onload = function() {
 		var img = document.getElementById('img');
-		var tracker = new tracking.ObjectTracker(['face', 'eye', 'mouth']);
+		var tracker = new tracking.ObjectTracker(['face']);
 		tracker.setStepSize(1.7);
 		tracking.track('#img', tracker);
 		tracker.on('track', function(event) {
