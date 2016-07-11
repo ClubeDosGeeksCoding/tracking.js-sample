@@ -26,6 +26,7 @@
 		tracking.track('#img', tracker);
 		tracker.on('track', function(event) {
 			event.data.forEach(function(rect) {
+				console.log(rect)
 				window.plot(rect.x, rect.y, rect.width, rect.height);
 			});
 		});
